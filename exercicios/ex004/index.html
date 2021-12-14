@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Testando Imagens</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Abrindo o site em dispositivos ou tamanhos de navegadores diferentes.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Aprendendo a reproduzir audios em HTML5</p>
+    
+    <audio preloud="auto" autoplay controls>
+        <source src="midia/quintodegrau.mp3" type="audio/mpeg">
+        <source src="midia/quintodegrau.mp3" type="audio/mpeg">
+        <p>Infelizmente nao foi possivel reproduzir este audio em seu navegador, para baixar o arquivo <a href="midia/quintodegrau.mp3" target="_blank">Clique Aqui</a></p>
+    </audio>
+
+
+
+</body>
+</html>
