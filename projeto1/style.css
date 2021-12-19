@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Archivo Black', sans-serif;
 }
 
 * {
@@ -48,22 +50,26 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+div.blocoimagem {
+    line-height: 1.3em;
+    background-color: rgb(95, 95, 95);
+    color:white;
+    position: relative;
+    height: 20vw;
+}
+
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+
     line-height: 1.3em;
     font-family: var(--fonte3);
     font-size: 1.3vw;
 }
 
-section > p {
-    
-}
-
 section.normal{
     background-color: white;
     color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 section.imagem{
@@ -72,25 +78,53 @@ section.imagem{
     box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
+    height: 20vw;
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
     background-color: rgba(56, 56, 56, 0.466);
     border-radius: 10px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.637);
-    
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
 
 section#img1 {
     background-image: url(imagens/gojo/gojo4.jpg);
     background-position: top center;
 }
-
 section#img2 {
     background-image: url(imagens/saitama/saitama1.jpg);
     background-position: center center;
+}
+section#img3 {
+    background-image: url(imagens/meruem/meruem2.jpg);
+    background-position: center center;
+}
+section#img4 {
+    background-image: url(imagens/kaneki/kaneki1.jpg);
+    background-position: center center;
+}
+section#img5 {
+    background-image: url(imagens/levi/levi1.jpg);
+    background-position: center center;
+}
+section#img6 {
+    background-image: url(imagens/jotaro/jotaro1.jpg);
+    background-position: center center;
+}
+
+p.titulos {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: var(--fonte4);
+}
+
+p {
+    text-align: center;
 }
 
 footer{
