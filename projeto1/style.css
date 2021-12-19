@@ -2,11 +2,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+/*
+--fonte3: 'Luxurious Roman', cursive;
+--fonte3: 'Sue Ellen Francisco', cursive;
+--fonte3: font-family: 'Odibee Sans', cursive;
+--fonte3: 'Yusei Magic', sans-serif;
+--fonte3: 'Rampart One', cursive;
+--fonte3: 'Sansita Swashed', cursive;
+*/
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;
+    --fonte3: 'Sansita Swashed', cursive;
     --fonte4: 'Archivo Black', sans-serif;
 }
 
@@ -32,7 +47,7 @@ header > h1 {
     padding-top: 30px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 3vw;
+    font-size: 5vw;
     
 }
 
@@ -129,6 +144,9 @@ p {
 p > a {
     text-decoration: none;
     color: white;
+}
+p > a:hover {
+    color: rgba(255, 255, 255, 0.856)
 }
 
 footer{
