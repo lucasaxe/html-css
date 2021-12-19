@@ -57,23 +57,41 @@ section {
     font-size: 1.3vw;
 }
 
+section > p {
+    
+}
+
 section.normal{
     background-color: white;
     color: black;
 }
 
 section.imagem{
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(95, 95, 95);
     color:white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.466);
+    border-radius: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.637);
+    
 }
 
+section#img1 {
+    background-image: url(imagens/gojo/gojo4.jpg);
+    background-position: top center;
+}
 
+section#img2 {
+    background-image: url(imagens/saitama/saitama1.jpg);
+    background-position: center center;
+}
 
 footer{
     background-color: black;
